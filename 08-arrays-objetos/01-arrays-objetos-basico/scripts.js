@@ -6,12 +6,12 @@
 
 // ARRAY: Lista ORDENADA de elementos acessados por ÍNDICES NUMÉRICOS (começando em 0).
 // Indicado para: Coleções sequenciais de itens (ex: lista de compras, pontuações).
-const frutas = ["Maçã", "Banana", "Laranja"];
+let frutas = ["Maçã", "Banana", "Laranja"];
 console.log(frutas[0]); // "Maçã" (acessado via índice numérico)
 
 // OBJETO: Coleção de PARES CHAVE-VALOR sem ordem garantida.
 // Indicado para: Mapear entidades do mundo real com atributos e comportamentos.
-const usuario = {
+let usuario = {
   nome: "Lucas",
   idade: 22,
   ativo: true
@@ -25,14 +25,14 @@ console.log(usuario["idade"]); // 22 (notação de colchetes)
 // --------------------------------------------------------------------------
 
 // PROPRIEDADE: É uma variável interna / valor associado a um tipo ou objeto. NÃO USA PARÊNTESES ().
-const texto = "JavaScript";
+let texto = "JavaScript";
 console.log(texto.length); // .length é uma PROPRIEDADE que guarda o número 10
 
 // MÉTODOS: São FUNÇÕES associadas a um objeto. EXECUTAM AÇÕES E USAM PARÊNTESES ().
 console.log(texto.toUpperCase()); // .toUpperCase() é um MÉTODOS que executa a conversão
 
 // Criando um Objeto com Propriedades E Métodos:
-const pessoa = {
+let pessoa = {
   nome: "Lucas",          // Propriedade (dado)
   profissao: "Dev",       // Propriedade (dado)
   apresentar: function() { // Método (função/comportamento)
@@ -47,7 +47,7 @@ pessoa.apresentar(); // Executa o método -> "Olá, sou o Lucas e trabalho como 
 // 3. MANIPULAÇÃO DE OBJETOS (Aulas 142, 143 e 144)
 // --------------------------------------------------------------------------
 
-const carro = {
+let carro = {
   marca: "Toyota",
   modelo: "Corolla"
 };
@@ -61,7 +61,7 @@ console.log(carro); // { marca: 'Toyota', ano: 2024 }
 
 // B) Copiando propriedades com Object.assign (Aula 143)
 // Copia as chaves e valores de um ou mais objetos de ORIGEM para um de DESTINO.
-const adicionais = { portas: 4, cambio: "Automático" };
+let adicionais = { portas: 4, cambio: "Automático" };
 
 // Sintaxe: Object.assign(objetoDestino, objetoOrigem)
 Object.assign(carro, adicionais);
@@ -72,7 +72,7 @@ console.log(carro);
 
 // C) Verificando as Chaves do Objeto com Object.keys (Aula 144)
 // Retorna um ARRAY contendo todas as chaves (nomes das propriedades) existentes no objeto.
-const chaves = Object.keys(carro);
+let chaves = Object.keys(carro);
 
 console.log(chaves); 
 // Saída: ['marca', 'ano', 'portas', 'cambio']

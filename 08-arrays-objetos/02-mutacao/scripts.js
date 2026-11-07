@@ -2,22 +2,22 @@
 */
 
 // 1. Mutação na prática (mesma referência de memória)
-const pessoaA = { nome: "Lucas" };
-const pessoaB = pessoaA;
+let pessoaA = { nome: "Lucas" };
+let pessoaB = pessoaA;
 
 pessoaB.nome = "Ana";
 console.log(pessoaA.nome); // "Ana" -> O objeto original foi mutado
 
 // 2. Comparação de referências
-const item1 = { id: 1 };
-const item2 = { id: 1 };
+let item1 = { id: 1 };
+let item2 = { id: 1 };
 
 console.log(item1 === item2);     // false (endereços de memória diferentes)
 console.log(pessoaA === pessoaB); // true (mesmo endereço de memória)
 
 // 3. Evitando mutação (Criando uma cópia com Spread)
-const original = { tema: "dark" };
-const copia = { ...original };
+let original = { tema: "dark" };
+let copia = { ...original };
 
 copia.tema = "light";
 console.log(original.tema); // "dark" -> Original protegido

@@ -2,18 +2,18 @@
 */
 
 // 1. Limpeza de espaços nas extremidades (trim)
-const textoComEspacos = "   Lucas Piana   ";
+let textoComEspacos = "   Lucas Piana   ";
 console.log(textoComEspacos.trim()); // "Lucas Piana"
 
 // 2. Preenchimento no início para padronização (padStart)
-const codigo = "734";
+let codigo = "734";
 console.log(codigo.padStart(6, "0")); // "000734" (Garante tamanho 6 preenchendo com "0")
 
 // 3. Converter Texto em Array (split) e Array em Texto (join)
-const frase = "aprender javascript e praticar";
-const palavras = frase.split(" "); // ["aprender", "javascript", "e", "praticar"]
-const slug = palavras.join("-");   // "aprender-javascript-e-praticar"
+let frase = "aprender javascript e praticar";
+let palavras = frase.split(" "); // ["aprender", "javascript", "e", "praticar"]
+let slug = palavras.join("-");   // "aprender-javascript-e-praticar"
 
 // 4. Repetição de texto (repeat)
-const divisor = "=";
+let divisor = "=";
 console.log(divisor.repeat(10)); // "=========="

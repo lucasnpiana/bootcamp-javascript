@@ -9,22 +9,22 @@ function somar(...numeros) {
 console.log(somar(10, 20, 30)); // 60
 
 // 2. Destructuring em Objetos -> Extrai propriedades pelo NOME da chave
-const usuario = { nome: "Lucas", cargo: "Dev", pais: "Brasil" };
-const { nome, cargo } = usuario;
+let usuario = { nome: "Lucas", cargo: "Dev", pais: "Brasil" };
+let { nome, cargo } = usuario;
 console.log(nome, cargo); // "Lucas" "Dev"
 
 // 3. Destructuring em Arrays -> Extrai elementos pela POSIÇÃO
-const numeros = [100, 200, 300, 400];
-const [primeiro, segundo, ...resto] = numeros; // Combina Destructuring com Rest Operator
+let numeros = [100, 200, 300, 400];
+let [primeiro, segundo, ...resto] = numeros; // Combina Destructuring com Rest Operator
 console.log(primeiro, resto); // 100 [300, 400]
 
 // 4. JSON: Conversão entre Objeto e Texto (JSON.stringify e JSON.parse)
-const config = { tema: "dark", ativo: true };
+let config = { tema: "dark", ativo: true };
 
 // Objeto JS -> String JSON (Para salvar em localStorage ou enviar para APIs)
-const jsonTexto = JSON.stringify(config);
+let jsonTexto = JSON.stringify(config);
 console.log(jsonTexto); // '{"tema":"dark","ativo":true}'
 
 // String JSON -> Objeto JS (Para ler dados recebidos de APIs ou storage)
-const configObjeto = JSON.parse(jsonTexto);
+let configObjeto = JSON.parse(jsonTexto);
 console.log(configObjeto.tema); // "dark"
