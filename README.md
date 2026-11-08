@@ -1,68 +1,111 @@
-# 🟨 Bootcamp & Formação JavaScript
+<div align="center">
 
-> Repositório dedicado ao armazenamento de códigos, anotações e exercícios práticos desenvolvidos ao longo do curso de **JavaScript (ES6+)**.
+# 🚀 Estudos de JavaScript
 
----
 
-## 📌 Sobre o Repositório
-
-Este repositório funciona como um diário de aprendizado e centraliza todos os exercícios, conceitos teóricos e pequenos testes desenvolvidos durante as aulas da formação. 
-
-O objetivo principal é praticar os fundamentos da linguagem, evoluindo desde a sintaxe básica e manipulação de tipos de dados até conceitos avançados de orientação a objetos, programação assíncrona e manipulação do DOM.
+</div>
 
 ---
 
-## 🗺️ Conteúdo e Estrutura dos Módulos
+## 📖 Sobre o projeto
 
-| Módulo / Pasta | Tópicos Cobertos | Status |
-| :--- | :--- | :---: |
-| **01. Introdução** | Boas-vindas, ambiente de desenvolvimento e primeiros passos | ✅ |
-| **02. Tipos de dados e operadores lógicos** | Strings, Numbers, Booleans, Null/Undefined, Operadores Lógicos e Aritméticos | ✅ |
-| **03. Exercícios** | Desafios práticos sobre tipos de dados e operadores | ✅ |
-| **04. Estruturas de Programação** | Variáveis (`let`, `const`, `var`), funções nativas (`prompt`, `alert`), estruturas condicionais (`if/else`, `switch`) e estruturas de repetição (`while`, `for`) | ✅ |
-| **05. Exercícios da seção 4** | Prática de estruturas condicionais e loops | ✅ |
-| **06. Funções** | Declaração de funções, parâmetros, retornos, escopo, Arrow Functions e Recursão | ✅ |
-| **07. Exercícios da seção 6** | Desafios focados na criação e reutilização de funções | ✅ |
-| **08. Arrays e Objetos** | Propriedades, métodos de array (`map`, `filter`, `reduce`, `push/pop`), objetos e mutação | ✅ |
-| **09. Exercícios sobre arrays e objetos** | Exercícios práticos com estruturas de dados | ✅ |
-| **10. Conceitos de Orientação a Objetos** | Prototypes, Classes (ES6), Métodos, Construtores, Herança e Getters/Setters | ⏳ |
-| **11. Exercícios sobre orientação a objetos** | Fixação de POO em JavaScript | ⏳ |
-| **12. Debugs e erros no JavaScript** | Tratamento de exceções (`try/catch`), `strict mode` e debugging com `console` e breakpoints | ⏳ |
-| **13. Expressões Regulares** | Regex: Padrões, caracteres especiais, quantificadores e método `test/exec` | ⏳ |
-| **14. Exercícios sobre Expressões Regulares** | Validação de dados (e-mails, telefones, datas) com Regex | ⏳ |
-| **15. Programação Assíncrona com JS** | Callbacks, Promises, Fetch API, `async/await` e Event Loop | ⏳ |
-| **16. JavaScript e o Navegador** | Manipulação da DOM, navegação por nós, alteração de estilos e elementos | ⏳ |
-| **17. Eventos com JavaScript** | Escutadores de eventos (`addEventListener`), eventos de mouse, teclado e formulários | ⏳ |
-| **18. Projeto 1: Jogo da Velha** | Projeto prático integrando HTML, CSS, DOM e lógica de eventos em JS | ⏳ |
+Este repositório reúne meus estudos de **JavaScript**, organizados em módulos numerados e progressivos. Cada pasta contém exemplos, anotações e exercícios sobre um tema específico, funcionando como um guia de consulta e um registro da minha evolução.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📚 Módulos
+
+| #  | Módulo | Conteúdo |
+|----|--------|----------|
+| 01 | `01-introducao` | Primeiros passos e conceitos básicos |
+| 02 | `02-tipos-de-dados` | Strings, números, booleanos, `null`, `undefined` |
+| 03 | `03-exercicios-tipos-de-dados` | Prática de tipos de dados |
+| 04 | `04-estruturas-de-programacao` | Condicionais e laços de repetição |
+| 05 | `05-exercicios-estruturas` | Prática de estruturas |
+| 06 | `06-funcoes` | Declaração, parâmetros, retorno, arrow functions |
+| 07 | `07-exercicios-funcoes` | Prática de funções |
+| 08 | `08-arrays-objetos` | Manipulação de arrays e objetos |
+| 09 | `09-exercicios-arrays-objetos` | Prática de arrays e objetos |
+| 10 | `10-poo` | Programação Orientada a Objetos |
+| 11 | `11-bugs-debug` | Identificando e corrigindo erros |
+| 12 | `12-expressao-regulares` | Regex |
+| 15 | `15-funcoes-assincronas` | Callbacks, Promises e `async/await` |
+| 16 | `16-js-navegador` | DOM e JavaScript no navegador |
+
+---
+
+## 🛠️ Tecnologias
 
 - **JavaScript (ES6+)**
-- **HTML5 & CSS3** (para testes no navegador e projetos)
-- **Node.js / Console do Navegador** (para execução de scripts)
+- **Node.js**
+- **HTML & CSS** (módulo do navegador)
+- **VS Code**
 
 ---
 
-## 🚀 Como Executar os Exercícios
+## ⚙️ Como usar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/lucasnpiana/bootcamp-javascript.git
-   ```
-2. Acesse a pasta desejada:
-   ```bash
-   cd "4. Seção 4 - Estruturas de Programação"
-   ```
-3. Execute o arquivo via Node.js ou abra o arquivo HTML correspondente no navegador:
-   ```bash
-   node script.js
-   ```
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/lucasnpiana/NOME-DO-REPOSITORIO.git
+```
+
+### 2. Acesse a pasta do módulo desejado
+
+```bash
+cd 14-js-navegador
+```
+
+### 3. Execute o arquivo via Node.js ou abra no navegador
+
+```bash
+node 01-selecionando-elementos-dom.js
+```
+
+> 💡 **Dica:** arquivos que usam o DOM (`document`, `window`) só funcionam no navegador. Abra o `.html` correspondente ou use a extensão **Live Server** do VS Code.
+
+---
+
+## 🗂️ Estrutura do repositório
+
+```text
+📦 projeto
+ ┣ 📂 01-introducao
+ ┣ 📂 02-tipos-de-dados
+ ┣ 📂 03-exercicios-tipos-de-dados
+ ┣ 📂 04-estruturas-de-programacao
+ ┣ 📂 05-exercicios-estruturas
+ ┣ 📂 06-funcoes
+ ┣ 📂 07-exercicios-funcoes
+ ┣ 📂 08-arrays-objetos
+ ┣ 📂 09-exercicios-arrays-objetos
+ ┣ 📂 10-poo
+ ┣ 📂 11-bugs-debug
+ ┣ 📂 12-expressao-regulares
+ ┣ 📂 13-funcoes-assincronas
+ ┗ 📂 14-js-navegador
+```
+
+---
+
+## 🎯 Objetivos
+
+- [x] Dominar os fundamentos da linguagem
+- [x] Praticar com exercícios por módulo
+- [x] Entender programação assíncrona
+- [ ] Aprofundar em manipulação do DOM
+- [ ] Construir projetos práticos
 
 ---
 
 ## 👤 Autor
 
-Desenvolvido por **Lucas Piana**  
+<div align="center">
+
+**Desenvolvido por Lucas Piana**
+
 🔗 [GitHub Profile](https://github.com/lucasnpiana)
+
+
+</div>
